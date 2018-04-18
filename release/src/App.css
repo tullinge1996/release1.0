@@ -64,16 +64,16 @@ border: 7px solid #17A2B8;
 .RowFooter{
   color: #17A2B8;
   text-align: center;
-  min-height: 40vh;
-}
-.RowFooter h3{
-  padding-top: 20px;
+  min-height: 10vh;
 }
 .FooterContainer{
   margin-top: 5%;
-  margin-bottom: 5%;
-  min-width:  90%;
+  min-width:  100%;
 }
 .ColFooter{
-border: 7px solid #17A2B8;
+background-color: #17A2B8;
+}
+.ColFooter h3{
+color: #EEE;
+padding-top: 35px;
 }

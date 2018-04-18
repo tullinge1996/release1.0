@@ -8,7 +8,7 @@ class Footer extends Component {
       <Container className="FooterContainer">
       <Row className = "RowFooter">
           <Col xl= "12" className = "ColFooter">
-          <h3>Previous Work 1</h3>
+          <h3>Footer</h3>
           </Col>
         </Row>
       </Container>
