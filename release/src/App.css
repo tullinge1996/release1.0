@@ -1,4 +1,6 @@
-
+#root{
+  background-color:#EEE;
+}
 .HeaderContainer{
   height: 150px;
   display: flex;
@@ -18,4 +20,60 @@
 }
 .aboutMeContainer{
   min-width: 100%;
+}
+.firstCol h1{
+  padding-top: 40px;
+}
+.secondCol h1{
+  padding-top: 40px;
+}
+.firstCol p{
+  padding-top: 35px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 18px;
+}
+.secondCol p{
+  padding-top: 35px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 18px;
+}
+.RowPreviousWork{
+  color: #17A2B8;
+  text-align: center;
+  min-height: 40vh;
+}
+.RowPreviousWork h3{
+  padding-top: 20px;
+}
+.PreviousWorkContainer{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  min-width:  90%;
+}
+.firstColPreviousWork{
+border: 7px solid #17A2B8;
+}
+.secondColPreviousWork{
+border: 7px solid #17A2B8;
+}
+.thirdColPreviousWork{
+border: 7px solid #17A2B8;
+}
+.RowFooter{
+  color: #17A2B8;
+  text-align: center;
+  min-height: 40vh;
+}
+.RowFooter h3{
+  padding-top: 20px;
+}
+.FooterContainer{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  min-width:  90%;
+}
+.ColFooter{
+border: 7px solid #17A2B8;
 }
