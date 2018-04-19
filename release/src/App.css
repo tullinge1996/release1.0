@@ -18,26 +18,17 @@
   text-align: center;
   min-height: 50vh;
 }
+.RowAboutMe h1{
+  padding-top: 40px;
+}
+.RowAboutMe p{
+  padding-top: 35px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 18px;
+}
 .aboutMeContainer{
   min-width: 100%;
-}
-.firstCol h1{
-  padding-top: 40px;
-}
-.secondCol h1{
-  padding-top: 40px;
-}
-.firstCol p{
-  padding-top: 35px;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: 18px;
-}
-.secondCol p{
-  padding-top: 35px;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: 18px;
 }
 .RowPreviousWork{
   color: #17A2B8;
@@ -62,18 +53,25 @@ border: 7px solid #17A2B8;
 border: 7px solid #17A2B8;
 }
 .RowFooter{
-  color: #17A2B8;
   text-align: center;
   min-height: 10vh;
+  background-color: #17A2B8;
 }
 .FooterContainer{
   margin-top: 5%;
   min-width:  100%;
 }
-.ColFooter{
-background-color: #17A2B8;
+.RowFooter ul{
+  padding-top: 45px;
 }
-.ColFooter h3{
-color: #EEE;
-padding-top: 35px;
+.RowFooter ul li{
+  display: inline;
+}
+.RowFooter li a{
+ text-decoration: none;
+ padding: 20px 20px;
+}
+.ColFooter2{
+  padding-top: 22px;
+  color:#EEE;
 }
