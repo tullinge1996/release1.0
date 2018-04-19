@@ -2,15 +2,18 @@
   background-color:#EEE;
 }
 .HeaderContainer{
-  height: 150px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #EEE;
+  background-image: url("https://www.adammershon.com/wp-content/uploads/2014/10/Code.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 .HeaderContainer h1{
   color: #17A2B8;
-  font-size: 60px;
+  font-size: 72px;
 }
 .RowAboutMe{
   background-color:#17A2B8;
@@ -39,18 +42,29 @@
   padding-top: 20px;
 }
 .PreviousWorkContainer{
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 5%;
   min-width:  90%;
 }
+.PreviousWorkContainer h1{
+  text-align: center;
+  color: #17A2B8;
+  padding-bottom: 30px;
+}
 .firstColPreviousWork{
 border: 7px solid #17A2B8;
+background: url("https://media.giphy.com/media/1wr1y8tuwMEraP7RRn/giphy.gif");
+background-size: cover;
 }
 .secondColPreviousWork{
 border: 7px solid #17A2B8;
+background: url("https://media.giphy.com/media/fQDf9LVqCRG33YJjPt/giphy.gif");
+background-size: cover;
 }
 .thirdColPreviousWork{
 border: 7px solid #17A2B8;
+background: url("https://media.giphy.com/media/wHeD9NHDhwiNxGVkzf/giphy.gif");
+background-size: cover;
 }
 .RowFooter{
   text-align: center;
