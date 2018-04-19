@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./App.css";
+import "../App.css";
 import { Container, Row, Col } from 'reactstrap';
 
 class PreviousWork extends Component {

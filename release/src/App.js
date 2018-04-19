@@ -1,9 +1,9 @@
 import React,{Component} from "react";
-import Header from "./Header";
-import AboutMe from "./AboutMe";
-import NavBar from "./NavBar";
-import PreviousWork from "./PreviousWork";
-import Footer from "./Footer";
+import Header from "./Components/Header";
+import AboutMe from "./Components/AboutMe";
+import NavBar from "./Components/NavBar";
+import PreviousWork from "./Components/PreviousWork";
+import Footer from "./Components/Footer";
 
 
 

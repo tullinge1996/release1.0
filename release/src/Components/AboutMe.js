@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import "./App.css";
+import "../App.css";
 import { Container, Row, Col } from 'reactstrap';
 
-class AboutMe extends Component {
+  class AboutMe extends Component {
   render(){
     return(
       <Container className="aboutMeContainer">

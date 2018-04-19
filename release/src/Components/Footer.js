@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import "./App.css";
+import "../App.css";
 import { Container, Row, Col } from 'reactstrap';
-import Images from "./IMAGES/Images"
+import Images from "../IMAGES/Images"
 var {fbLogga, googlePlusLogga, linkedinLogga, twitterLogga} = Images
 
 class Footer extends Component {
