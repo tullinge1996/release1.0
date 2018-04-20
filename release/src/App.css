@@ -1,5 +1,8 @@
 #root{
   background-color:#EEE;
+  background-image: url("https://i.imgur.com/8yDlfGy.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 .HeaderContainer{
   height: 300px;
@@ -10,6 +13,7 @@
   background-image: url("https://i.imgur.com/8yDlfGy.jpg");
   background-size: cover;
   background-attachment: fixed;
+
 }
 .HeaderContainer h1{
   color: #17A2B8;
@@ -53,6 +57,7 @@
   min-width:  90%;
 }
 .PreviousWorkContainer h1{
+  font-size: 50px;
   text-align: center;
   color: #17A2B8;
   padding-bottom: 30px;
