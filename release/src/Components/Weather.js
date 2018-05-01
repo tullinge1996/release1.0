@@ -4,7 +4,7 @@ import "../App.css";
 class Weather extends Component {
   render(){
     return(
-      <div>
+      <div className ="WeatherResult">
       {this.props.city && this.props.country && <p>Location: {this.props.city},{this.props.country}</p>}
       {this.props.temperature && <p>Temperature: {this.props.temperature}</p>}
       {this.props.humidity && <p>Humidity: {this.props.himidity}</p>}
