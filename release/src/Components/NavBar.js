@@ -25,7 +25,8 @@ export default class NavBar extends React.Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/components/">Contact</NavLink>
+                <NavLink  href ="/WeatherApp/">Weather</NavLink>
+                <NavLink  href="/GuestBook">Guest Book</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
