@@ -11,10 +11,10 @@ class Footer extends Component {
       <Row className = "RowFooter">
           <Col xl= "6" className = "ColFooter">
           <ul>
-          <li><a href =""><img src={twitterLogga}alt="Twitterlogo"/></a></li>
+          <li><a href ="https://twitter.com/Brunniz?lang=sv"><img src={twitterLogga}alt="Twitterlogo"/></a></li>
           <li><a href =""><img src={googlePlusLogga}alt="GooglePlusLogo"/></a></li>
-          <li><a href =""><img src={linkedinLogga}alt="LinkedInLogo"/></a></li>
-          <li><a href =""><img src={fbLogga} alt="FaceBookLogo"/></a></li>
+          <li><a href ="https://www.linkedin.com/in/carl-brunng%C3%A5rd-b9a7a3159/"><img src={linkedinLogga}alt="LinkedInLogo"/></a></li>
+          <li><a href ="https://www.facebook.com/carl.brunngard"><img src={fbLogga} alt="FaceBookLogo"/></a></li>
           </ul>
           </Col>
           <Col xl= "6" className = "ColFooter2">
