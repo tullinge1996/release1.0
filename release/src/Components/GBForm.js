@@ -36,6 +36,7 @@ class GBForm extends React.Component {
       .catch(function(res){ console.log(res) })
 
       alert('A message by: ' + this.state.author + ' has been posted and it contained: ' + this.state.body);
+      window.location.reload(true);
       event.preventDefault();
     }
 
