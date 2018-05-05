@@ -11,7 +11,6 @@ class Student extends Component {
 
 
   render() {
-    const { comment } = this.props
     return (
       <div>
         <GBForm />

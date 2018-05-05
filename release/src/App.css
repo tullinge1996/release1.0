@@ -84,8 +84,8 @@ background-size: cover;
   background-color: #17A2B8;
 }
 .FooterContainer{
-  margin-top: 5%;
   min-width:  100%;
+  padding-top: 5%;
 }
 .RowFooter ul{
   padding-top: 45px;
@@ -105,7 +105,7 @@ background-size: cover;
   color: #EEE;
   font-size: 55px;
 }
-.WeatherText p{
+.WeatherText h4{
   color:#eee;
   font-size: 25px
 }
@@ -115,7 +115,7 @@ background-size: cover;
 }
 
 .WeatherRowContainer{
-  height: 50vh;
+  height: 35vh;
   text-align: center;
   align-items: center;
 }
@@ -123,6 +123,24 @@ background-size: cover;
   color:white;
 }
 .content{
-  height: 300px;
   width: 100%;
+    background-color: #17A2B8;
+    color: white;
+}
+.content div{
+  overflow: scroll;
+  height: 250px;
+}
+.content p{
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+}
+.content h1{
+  font-size: 55px;
+  text-align: center;
+}
+.content h4{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 3%;
 }

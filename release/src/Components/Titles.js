@@ -6,7 +6,7 @@ class Titles extends Component {
     return(
       <div className ="WeatherText">
       <h1>Weather Finder</h1>
-      <p>Find out temperature, conditions and more....</p>
+      <h4>Find out temperature, conditions and more....</h4>
       </div>
     );
   }

@@ -1,5 +1,4 @@
 import React from "react";
-
 class GBForm extends React.Component {
     constructor(props) {
       super(props);
@@ -54,6 +53,7 @@ class GBForm extends React.Component {
 
           <input type="submit" value="Submit" />
         </form>
+
       );
     }
   }

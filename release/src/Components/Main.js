@@ -25,9 +25,12 @@ class Main extends Component {
         return (
             <HashRouter>
                 <div className="content">
+                  <h1>Guest Book</h1>
+                  <h4>Refresh the page to see your comment</h4>
                         <Route  render={() => <Student comment={this.state.comment} />} />
 
                 </div>
+
             </HashRouter>
         );
     }

@@ -49,7 +49,7 @@ if (city && country){
     return(
       <Container className ="WeatherContainer">
         <Row className ="WeatherRowContainer">
-        <Col xl = "6" className="firstColWeather">
+        <Col xl = "12" className="firstColWeather">
       <Titles/>
       <Form getWeather = {this.getWeather}/>
       <Weather
@@ -60,9 +60,6 @@ if (city && country){
        description={this.state.description}
        error={this.state.error}
       />
-  </Col>
-  <Col xl = "6" className="secondColWeather">
-    <h1>Guest Book</h1>
   </Col>
   </Row>
   </Container>
