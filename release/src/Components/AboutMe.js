@@ -17,6 +17,8 @@ import { Container, Row, Col, Progress } from 'reactstrap';
             Before i decided to hop on this course i had never touched code in my life, so far it has been a bit of a challenge
             to get into coding since It's very new to me. But I like to learn which i think is key for everyone who is
             thinking about getting into coding.
+            Down below you can see screenshots of my previous projects.
+            Also feel free to leave a comment in my Guestbook if you like.
                </p>
           </Col>
           <Col xl="6" className = "secondCol">
