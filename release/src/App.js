@@ -5,6 +5,7 @@ import NavBar from "./Components/NavBar";
 import PreviousWork from "./Components/PreviousWork";
 import Footer from "./Components/Footer";
 import WeatherApp from "./WeatherApp";
+import Main from "./Components/Main";
 
 
 
@@ -19,6 +20,7 @@ class App extends Component {
       <AboutMe/>
       <PreviousWork/>
       <WeatherApp/>
+      <Main/>
       <Footer/>
       </div>
     );

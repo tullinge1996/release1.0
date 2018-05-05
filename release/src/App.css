@@ -122,3 +122,7 @@ background-size: cover;
 .WeatherResult p{
   color:white;
 }
+.content{
+  height: 300px;
+  width: 100%;
+}
