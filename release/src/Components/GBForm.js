@@ -41,16 +41,16 @@ class GBForm extends React.Component {
 
     render() {
       return (
-        <form onSubmit={this.handleSubmit}>
+        <form className="GuestbookContainers" onSubmit={this.handleSubmit}>
         <label>
-          Name:
+          <h4>Name:</h4>
           <input name="author" type="text" value={this.state.value} onChange={this.handleInputChange} />
         </label><br />
           <label>
-            Comment:
+            <h4>Comment:</h4>
             <textarea name="body" value={this.state.value} onChange={this.handleInputChange} />
           </label>
-
+          <br></br>
           <input type="submit" value="Submit" />
         </form>
 

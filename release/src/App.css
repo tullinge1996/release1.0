@@ -129,7 +129,7 @@ background-size: cover;
 }
 .content div{
   overflow: scroll;
-  height: 250px;
+  height: 350px;
 }
 .content p{
   border-bottom: 1px solid white;
@@ -143,4 +143,7 @@ background-size: cover;
   font-size: 25px;
   text-align: center;
   padding-bottom: 3%;
+}
+.GuestbookContainers{
+  text-align: center;
 }
