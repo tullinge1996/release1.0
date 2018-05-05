@@ -15,7 +15,7 @@ class Student extends Component {
       <div>
         <GBForm />
         { this.props.comment.map((value) => {
-          return (<p key={value.id}>{value.body}</p>);
+          return (<p key={value.id}>{value.author}: {value.body}</p>);
 
         }) }
 
