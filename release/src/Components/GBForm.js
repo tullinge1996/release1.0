@@ -23,7 +23,7 @@ class GBForm extends React.Component {
       }
 
     handleSubmit(event) {
-        fetch('http://localhost:8080/comment',
+        fetch('https://carlbrunn-portfolio-api.herokuapp.com/comment',
       {
           headers: {
             'Accept': 'application/json',

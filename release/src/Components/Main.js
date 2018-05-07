@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Route, HashRouter } from "react-router-dom";
 import Student from "./Student";
-const COMMENT_API = 'http://localhost:8080/comment'
+const COMMENT_API = 'https://carlbrunn-portfolio-api.herokuapp.com/comment'
 
 class Main extends Component {
     constructor(props) {

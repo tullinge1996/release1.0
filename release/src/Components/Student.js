@@ -3,7 +3,7 @@ import GBForm from "./GBForm";
 
 class Student extends Component {
   componentDidMount() {
-    fetch('http://localhost:8080/comment',)
+    fetch('https://carlbrunn-portfolio-api.herokuapp.com/comment',)
       .then(function(res){ console.log(res) })
       .catch(function(res){ console.log(res) })
 
