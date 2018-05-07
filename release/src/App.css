@@ -3,7 +3,19 @@
   background-image: url("https://i.imgur.com/8yDlfGy.jpg");
   background-size: cover;
   background-attachment: fixed;
+  margin: 0;
+  padding:0;
 }
+.NavbarContent{
+display: flex;
+flex-wrap: wrap;
+  height: 65px;
+  min-width: 100%;
+  padding-top: 0.8%;
+  background-color: #17A2B8;
+  color: white;
+}
+
 .HeaderContainer{
   height: 300px;
   display: flex;
@@ -18,10 +30,8 @@
 .HeaderContainer h1{
   color: #17A2B8;
   font-size: 72px;
-  padding-left: 30px;
-  padding-right:30px;
-  padding-bottom: 10px;
   -webkit-text-stroke: 1px black;
+
 }
 .RowAboutMe{
   background-color:#17A2B8;
@@ -31,13 +41,19 @@
 }
 .RowAboutMe h1{
   padding-top: 40px;
-
 }
 .RowAboutMe p{
-  padding-top: 35px;
-  padding-left: 100px;
-  padding-right: 100px;
   font-size: 18px;
+}
+.firstCol p{
+  width: auto;
+  padding: 0;
+  padding-top:3%;
+}
+.secondCol p{
+  width: auto;
+  padding: 0;
+  padding-top:3%;
 }
 
 .aboutMeContainer{
@@ -95,7 +111,7 @@ background-size: cover;
 }
 .RowFooter li a{
  text-decoration: none;
- padding: 20px 20px;
+padding: 20px 20px;
 }
 .ColFooter2{
   padding-top: 22px;
@@ -109,21 +125,7 @@ background-size: cover;
   color:#eee;
   font-size: 25px
 }
-.WeatherContainer{
-  min-width: 100%;
-  background-color: #17A2B8;
-}
-
-.WeatherRowContainer{
-  height: 35vh;
-  text-align: center;
-  align-items: center;
-}
-.WeatherResult p{
-  color:white;
-}
 .content{
-  width: 100%;
     background-color: #17A2B8;
     color: white;
 }
@@ -146,4 +148,12 @@ background-size: cover;
 }
 .GuestbookContainers{
   text-align: center;
+}
+.WeatherContent{
+  text-align: center;
+  background-color: #17A2B8;
+}
+.WeatherResult p{
+  color: white;
+  margin: 0;
 }

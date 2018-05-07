@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import Form from "./Components/Form"
 import Titles from "./Components/Titles"
 import Weather from "./Components/Weather"
-import { Container, Row, Col } from 'reactstrap';
 
 const API_KEY ="2fb6350dd708ac940b3f51c456707909";
 
@@ -47,9 +46,7 @@ if (city && country){
 }
   render(){
     return(
-      <Container className ="WeatherContainer">
-        <Row className ="WeatherRowContainer">
-        <Col xl = "12" className="firstColWeather">
+    <div className ="WeatherContent">
       <Titles/>
       <Form getWeather = {this.getWeather}/>
       <Weather
@@ -59,10 +56,9 @@ if (city && country){
        humidity={this.state.humidity}
        description={this.state.description}
        error={this.state.error}
+
       />
-  </Col>
-  </Row>
-  </Container>
+    </div>
     );
   }
 }
